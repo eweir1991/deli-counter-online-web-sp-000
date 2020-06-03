@@ -1,12 +1,12 @@
 #Build the line method that shows everyone their current place in the line. If there is nobody in line, it should say "The line is currently empty.".
 
-def line(katz_deli)
+def katz_deli
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    line = []
+    katz_deli = []
     katz_deli.each.with_index(1) do |name, index|
-      line << "#{index}. #{name}"
+      katz_deli << "#{index}. #{name}"
     end
     puts "The line is currently: #{line.join(" ")}"
   end
