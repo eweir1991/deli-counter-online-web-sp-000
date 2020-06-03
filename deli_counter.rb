@@ -1,5 +1,5 @@
 #Build the line method that shows everyone their current place in the line. If there is nobody in line, it should say "The line is currently empty.".
-
+#
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
